@@ -1,0 +1,312 @@
+
+/* ===== LUXELOOK PREMIUM DESIGN UPGRADE ===== */
+
+:root {
+  --luxury-rose: #bd8275;
+  --luxury-gold: #c5a36b;
+  --luxury-cream: #faf5ef;
+  --luxury-dark: #25201e;
+}
+
+body {
+  background: #fffdf9;
+  color: var(--luxury-dark);
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--luxury-rose);
+  color: white;
+}
+
+.header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  box-shadow: 0 5px 25px rgba(40, 30, 25, .045);
+  backdrop-filter: blur(14px);
+}
+
+.logo {
+  transition: .3s ease;
+}
+
+.logo:hover {
+  transform: translateY(-2px);
+}
+
+.nav a {
+  transition: color .3s, background .3s, transform .3s;
+}
+
+.nav a:not(.nav-btn):hover {
+  color: var(--luxury-gold);
+}
+
+.nav .nav-btn {
+  border-radius: 3px;
+  background: linear-gradient(135deg, #302522, #63453d);
+}
+
+.nav .nav-btn:hover {
+  background: var(--luxury-rose);
+  transform: translateY(-2px);
+}
+
+.hero {
+  background:
+    radial-gradient(circle at 10% 15%, #f1dfd4 0, transparent 35%),
+    linear-gradient(120deg, #faf5ef, #fffaf6);
+}
+
+.hero h1 {
+  letter-spacing: -2.5px;
+  line-height: 1.12;
+}
+
+.hero h1 em,
+.section-title h2 em,
+.about-layout h2 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+.hero-image img {
+  box-shadow: 0 25px 60px rgba(60, 35, 25, .15);
+  transition: transform .6s ease;
+}
+
+.hero-image:hover img {
+  transform: scale(1.015);
+}
+
+.image-tag {
+  border-left: 3px solid var(--luxury-gold);
+  box-shadow: 0 8px 25px #00000012;
+}
+
+.btn {
+  border-radius: 3px;
+  letter-spacing: .4px;
+  box-shadow: 0 7px 18px #30252212;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 25px #bd827540;
+}
+
+.stats {
+  background: #fffdf9;
+}
+
+.stats strong {
+  color: var(--luxury-gold);
+}
+
+.section-title h2 {
+  letter-spacing: -1px;
+}
+
+.card {
+  border-radius: 4px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 18px 40px #39271e12;
+}
+
+.card img {
+  object-position: center;
+}
+
+.card-content a {
+  color: var(--luxury-rose);
+}
+
+.banner {
+  background:
+    radial-gradient(circle at 85% 10%, #d8a99a 0, transparent 35%),
+    linear-gradient(120deg, #87584e, #bd8275);
+}
+
+.page-hero {
+  background:
+    radial-gradient(ellipse at top right, #f0ddd3, transparent 55%),
+    var(--luxury-cream);
+}
+
+.page-hero h1 {
+  letter-spacing: -1.5px;
+}
+
+.about-photo {
+  box-shadow: 18px 18px 0 #f1e3d9;
+}
+
+.value-card,
+.booking-form {
+  border-radius: 4px;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px #0000000d;
+}
+
+.service-item {
+  transition: background .25s, padding .25s;
+}
+
+.service-item:hover {
+  background: #fcf5ef;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.gallery-grid figure {
+  border-radius: 4px;
+}
+
+.gallery-grid img {
+  transition: transform .5s ease, filter .5s ease;
+}
+
+.gallery-grid figure:hover img {
+  transform: scale(1.06);
+  filter: brightness(.9);
+}
+
+.booking-form {
+  box-shadow: 0 15px 50px #5c3c2b0b;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  border-radius: 3px;
+  transition: border-color .25s, box-shadow .25s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  border-color: var(--luxury-rose);
+  box-shadow: 0 0 0 3px #bd82751a;
+}
+
+.footer {
+  background: linear-gradient(135deg, #211c1a, #392925);
+}
+
+.footer-logo span {
+  color: #d6aa89;
+}
+
+.footer-links a {
+  transition: color .25s;
+}
+
+/* Video and music sections */
+
+.media-section {
+  padding: 70px 7%;
+  background: var(--luxury-cream);
+}
+
+.media-heading {
+  max-width: 650px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+.media-heading h2 {
+  font-size: clamp(30px, 4vw, 43px);
+  margin-bottom: 12px;
+}
+
+.media-heading p {
+  color: #77716b;
+  font-size: 13px;
+}
+
+.salon-video {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #211c1a;
+  border-radius: 8px;
+  box-shadow: 0 20px 50px #30252220;
+}
+
+.music-card {
+  max-width: 650px;
+  margin: 28px auto 0;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: white;
+  border: 1px solid #eadbd0;
+  border-radius: 8px;
+}
+
+.music-icon {
+  min-width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  background: #f2e2d9;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+.music-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.music-info h3 {
+  font-size: 19px;
+  margin-bottom: 4px;
+}
+
+.music-info p {
+  color: #77716b;
+  font-size: 12px;
+}
+
+.music-player {
+  width: 100%;
+  height: 38px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    letter-spacing: -1.5px;
+  }
+
+  .media-section {
+    padding: 50px 6%;
+  }
+
+  .music-card {
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .music-icon {
+    min-width: 42px;
+    height: 42px;
+    font-size: 19px;
+  }
+
+  .service-item:hover {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
