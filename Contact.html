@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | LuxeLook Salon</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <a href="index.html" class="logo">Luxe<span>Look.</span><small>UNISEX SALON</small></a>
+  <button class="menu" aria-label="Open navigation">☰</button>
+  <nav class="nav">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a href="services.html">Services</a><a href="gallery.html">Gallery</a>
+    <a class="nav-btn active" href="contact.html">Book Now ↗</a>
+  </nav>
+</header>
+<main>
+<section class="page-hero">
+  <p class="eyebrow">LET'S CONNECT</p>
+  <h1>It's time for <em>you.</em></h1>
+  <p>Request your appointment and plan your next salon visit.</p>
+</section>
+<section class="section contact-layout">
+  <div class="contact-info">
+    <p class="eyebrow">VISIT LUXELOOK</p>
+    <h2>We'd love to <em>meet you.</em></h2>
+    <p>Get in touch for service details, appointment requests or a styling consultation.</p>
+    <div class="detail"><strong>⌖ &nbsp; Address</strong><p>123 Style Street, Ahmedabad, Gujarat</p></div>
+    <div class="detail"><strong>☎ &nbsp; Phone</strong><p>+91 98765 43210</p></div>
+    <div class="detail"><strong>◷ &nbsp; Opening Hours</strong><p>Tuesday–Sunday: 10 AM – 8 PM</p><p>Monday: Closed</p></div>
+    <p class="note">Address and phone are sample details. Replace them with actual business information.</p>
+  </div>
+  <form class="booking-form" id="bookingForm">
+    <p class="eyebrow">APPOINTMENT REQUEST</p>
+    <h2>Book your visit</h2>
+    <label for="name">Full Name</label>
+    <input id="name" name="name" type="text" placeholder="Enter your name" required>
+    <label for="phone">Phone Number</label>
+    <input id="phone" name="phone" type="tel" placeholder="Enter phone number" required>
+    <label for="service">Select Service</label>
+    <select id="service" name="service" required>
+      <option value="">Choose a service</option>
+      <option>Haircut & Styling</option>
+      <option>Hair Spa</option>
+      <option>Hair Colour</option>
+      <option>Facial & Skin Care</option>
+      <option>Party Makeup</option>
+      <option>Beard Trim</option>
+      <option>Consultation</option>
+    </select>
+    <label for="date">Preferred Date</label>
+    <input id="date" name="date" type="date" required>
+    <label for="message">Message (Optional)</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us your preferences..."></textarea>
+    <button class="btn form-submit" type="submit">Request Appointment ↗</button>
+    <p id="formMessage" role="status" aria-live="polite"></p>
+    <p class="note">Demo only: this form does not send a real booking.</p>
+  </form>
+</section>
+</main>
+<footer class="footer">
+  <a href="index.html" class="logo footer-logo">Luxe<span>Look.</span><small>UNISEX SALON</small></a>
+  <p>Your everyday destination for hair, beauty and grooming.</p>
+  <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a></div>
+  <p class="copyright">© <span class="year"></span> LuxeLook Salon · Student Project</p>
+</footer>
+</body>
+</html>
