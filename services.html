@@ -1,99 +1,74 @@
 
-<!-- FILE: services.html -->
-<!-- SECTION 1: SALON PRICE TABLE -->
-
-<section class="price-section">
-  <div class="price-heading">
-    <p class="eyebrow">LUXELOOK UNISEX SALON</p>
-    <h2>Our Services &amp; Price List</h2>
-    <p>Professional care for your hair, skin and beauty.</p>
-  </div>
-
-  <div class="price-table-wrap">
-    <table class="price-table">
-      <thead>
-        <tr>
-          <th>Sr. No.</th>
-          <th>Service Name</th>
-          <th>Description</th>
-          <th>Price (₹)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>01</td>
-          <td>Haircut &amp; Styling</td>
-          <td>Professional haircut and styling</td>
-          <td>299</td>
-        </tr>
-        <tr>
-          <td>02</td>
-          <td>Hair Spa</td>
-          <td>Nourishing hair treatment</td>
-          <td>699</td>
-        </tr>
-        <tr>
-          <td>03</td>
-          <td>Hair Colour</td>
-          <td>Professional basic hair colouring</td>
-          <td>999</td>
-        </tr>
-        <tr>
-          <td>04</td>
-          <td>Facial</td>
-          <td>Refreshing facial and skincare</td>
-          <td>799</td>
-        </tr>
-        <tr>
-          <td>05</td>
-          <td>Manicure</td>
-          <td>Hand and nail care treatment</td>
-          <td>399</td>
-        </tr>
-        <tr>
-          <td>06</td>
-          <td>Pedicure</td>
-          <td>Foot care and relaxation</td>
-          <td>499</td>
-        </tr>
-        <tr>
-          <td>07</td>
-          <td>Party Makeup</td>
-          <td>Makeup for special occasions</td>
-          <td>1,499</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <p class="price-note">
-    Note: Prices are sample prices for this college project.
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | LuxeLook Salon</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="header">
+  <a href="index.html" class="logo">Luxe<span>Look.</span><small>UNISEX SALON</small></a>
+  <button class="menu" aria-label="Open navigation">☰</button>
+  <nav class="nav">
+    <a href="index.html">Home</a><a href="about.html">About</a>
+    <a class="active" href="services.html">Services</a><a href="gallery.html">Gallery</a>
+    <a class="nav-btn" href="contact.html">Book Now ↗</a>
+  </nav>
+</header>
+<main>
+<section class="page-hero">
+  <p class="eyebrow">OUR SERVICES</p>
+  <h1>Your beauty, <em>your way.</em></h1>
+  <p>Explore our sample service menu and find the right treatment for your next visit.</p>
 </section>
-
-
-<!-- FILE: services.html -->
-<!-- SECTION 2: SALON VIDEO AND AUDIO -->
-
-<section class="media-section">
-  <h2>Experience <span>LuxeLook</span></h2>
-  <p>Discover our salon atmosphere and relaxing ambience.</p>
-
-  <div class="video-container">
-    <video controls playsinline preload="metadata">
-      <source src="media/salon-video.mp4" type="video/mp4">
-      Your browser does not support this video.
-    </video>
+<section class="section">
+  <div class="section-title"><p class="eyebrow">THE SERVICE MENU</p><h2>Choose your <em>experience.</em></h2></div>
+  <div class="service-list">
+    <article class="service-item">
+      <div><span class="number">01</span><h3>Haircut & Styling</h3><p>Personalised haircuts and professional styling.</p></div>
+      <strong>₹499+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">02</span><h3>Wash & Blow-Dry</h3><p>A fresh wash with a smooth, styled finish.</p></div>
+      <strong>₹399+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">03</span><h3>Hair Spa</h3><p>A conditioning treatment for a relaxing hair-care session.</p></div>
+      <strong>₹799+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">04</span><h3>Hair Colour</h3><p>Colour services selected after a consultation.</p></div>
+      <strong>₹1,499+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">05</span><h3>Facial & Skin Care</h3><p>A refreshing beauty treatment for your self-care routine.</p></div>
+      <strong>₹699+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">06</span><h3>Party Makeup</h3><p>Makeup styling for celebrations and special occasions.</p></div>
+      <strong>₹1,999+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">07</span><h3>Beard Trim</h3><p>Neat edges and a clean, balanced beard shape.</p></div>
+      <strong>₹149+</strong>
+    </article>
+    <article class="service-item">
+      <div><span class="number">08</span><h3>Haircut + Beard</h3><p>A complete grooming refresh in one visit.</p></div>
+      <strong>₹349+</strong>
+    </article>
   </div>
-
-  <div class="audio-container">
-    <h3>♫ Relaxing Salon Music</h3>
-    <p>Enjoy soothing music while exploring our salon.</p>
-
-    <audio controls preload="metadata">
-      <source src="media/salon-music.mp3" type="audio/mpeg">
-      Your browser does not support this audio.
-    </audio>
-  </div>
+  <p class="note">Note: All prices are sample amounts for this college project. Actual prices may vary.</p>
 </section>
-
+<section class="banner"><h2>Your next look starts <em>here.</em></h2><a class="btn btn-light" href="contact.html">Book a Service ↗</a></section>
+</main>
+<footer class="footer">
+  <a href="index.html" class="logo footer-logo">Luxe<span>Look.</span><small>UNISEX SALON</small></a>
+  <p>Your everyday destination for hair, beauty and grooming.</p>
+  <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></div>
+  <p class="copyright">© <span class="year"></span> LuxeLook Salon · Student Project</p>
+</footer>
+</body>
+</html>
